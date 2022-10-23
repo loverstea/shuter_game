@@ -6,7 +6,7 @@ font.init()
 
 mixer.init()
 mixer.music.load("space.ogg")
-#mixer.music.play()
+mixer.music.play()
 fire_sound = mixer.Sound("fire.ogg")
 
 class GameSprite(sprite.Sprite):
